@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🌐 Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Utopia</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 🏠 Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Utopia</h1>
+        <p>Innovating with AI, Web, and Creativity</p>
+        <a href="#portfolio" class="btn">Explore Our Work</a>
+    </section>
+
+    <!-- 💡 About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            We are a team of passionate developers and designers creating modern, AI-driven, and responsive web applications. 
+            Our mission is to help people and businesses innovate for the future using smart technologies.
+        </p>
+    </section>
+
+    <!-- ⚙️ Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>We build responsive and visually stunning websites using the latest web technologies.</p>
+            </div>
+            <div class="service">
+                <h3>AI Integration</h3>
+                <p>Empowering applications with machine learning and artificial intelligence solutions.</p>
+            </div>
+            <div class="service">
+                <h3>App Design</h3>
+                <p>Designing mobile and web applications that are elegant, fast, and easy to use.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 💼 Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Our Portfolio</h2>
+        <p>Explore some of our latest creative works that combine design and innovation.</p>
+
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="image/project1.png" alt="AI Career App">
+                <div class="overlay">
+                    <h3>AI Career Guidance</h3>
+                    <p>Smart web app using AI to suggest career paths based on your skills and interests.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="image/project2.png" alt="Food Delivery Website">
+                <div class="overlay">
+                    <h3>Food Delivery Website</h3>
+                    <p>Responsive website for ordering food with real-time tracking and menu management.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="image/project3.png" alt="Resume Builder">
+                <div class="overlay">
+                    <h3>Resume Builder App</h3>
+                    <p>Web app to create professional resumes using templates with export options.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ✉️ Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Utopia. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
